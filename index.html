@@ -1,31 +1,129 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Assignment Solution for Module 2</title>
-	<link rel="stylesheet" href="css/style.css" />
-</head>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE-edge">
+		<meta name="viewport" content="width=device-width, initial-scale = 1">
+		<title>Synthetic Biology New Zealand</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
 
 <body>
-<h1>Our Menu</h1>
+	<header>
+		<div id="gradient_R">
+			<br>
+		</div>
+		<nav id="header-nav" class="navbar navbar-expand-lg">
+			<div class="container">
+				<div class="navbar-header" >
+					<a href="index.html">
+						<img id="logo-nav-img" src="images/synbionz_logo_long.png"
+												alt="Synthetic biology logo"></a>
+				</div>
 
-<div>
-<section class="col-lg col-md-1">
-	<h2 id="Chicken">Chicken</h2>
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-</section>
+				<button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse"
+				data-bs-target="#collapsable-nav" aria-expanded="false">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+			
 
-<section class="col-lg col-md-1">
-	<h2 id="Beef">Beef</h2>
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-</section>
+				<div id="collapsable-nav" class="collapse navbar-collapse">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" 
+							role="button" data-bs-toggle="dropdown" aria-haspopup="true" 
+							aria-expanded="false">About us</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+	          					<a class="dropdown-item" href="#">Mission and Values</a>
+	          					<a class="dropdown-item" href="#">Our team</a>
+	          				</div>
+	          			</li>
+	          			<li class="nav-item">
+          					<a class="nav-link" href="#">Events</a>
+        				</li>
+        				<li class="nav-item">
+          					<a class="nav-link" href="#">Learn more</a>
+        				</li>
+        				<li class="nav-item">
+          					<a class="nav-link" href="#">Contact us</a>
+        				</li>
+	          		</ul>
+				</div>
+          	</div>
+		</nav>
 
-<section class="col-lg col-md-2">
-	<h2 id="Sushi">Sushi</h2>
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-</section>
-</div>
+	</header>
+	
+	<div class="container_fluid">
+		<div class="jumbotron">
+			<img id="fern" src="images/Ferns_1200.jpg" alt="Picture of fern" class="d-block d-xxl-none">
+			<img id="fern" src="images/Ferns_1.jpg" alt="Picture of fern" class="d-none d-xxl-block">
+			<img id="jumbo-logo" src="images/SynbioLogo.png" class="d-none d-lg-block" alt="Logo">
+			<img id="jumbo-petri" src="images/Green_petri.png" class="d-none d-lg-block" alt="Logo">
+			
+			<div id="gradient_R2" class="d-none d-lg-block">
+				<br>
+			</div>
+		</div>
+	</div>
+	
+	<div class="container">
+		<div id="block-1">
+			<div>
+				<h1>Synthetic Biology New Zealand</h1>
+				<p>Welcome to SynbioNZ! We are the NZ node of Synbio Australasia – a space where researchers, students, policy makers, and anyone interested in synthetic biology can connect and learn about synthetic biology in New Zealand. <br>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid color-gradiant">
+		<div class="container main-content">
+			<div id="block-2">
+				<div class="extra-padding">
+					We aim to advocate for synthetic biology research safety and awareness, create a space for NZ-based synthetic biological research to grow, and enable NZ-based synthetic biology to successfully create positive social and environmental impact on a global scale. Read about our <a class="text-link" href="#"><b>Mission and Values</b></a></p>
+				</div>
+
+				<div class="row">
+					<div class="col-md-12 col-lg-5 col-xl-3 extra-padding">
+						<a class="text-link" href="https://www.queenstownresearchweek.org/synthetic-biology/">
+							<img id="QMB-poster" src="images/QMB_queenstown.png" target="_blank" alt="Queenstown flyer">
+						</a>
+					</div>
+
+					<div class="col-md-12 col-lg-7 col-xl-9 extra-padding">
+						<h2>Synthetic Biology in Queenstown</h2>
+						<p><a class="text-link" href="https://www.queenstownresearchweek.org/synthetic-biology/" target="_blank"><b>Join us</b></a> as we showcase the latest advancements in synthetic biology research in NZ, engage in discussions on GMO legislation and bolstering iGEM support in the Southern Hemisphere. Our goal is to foster an interdisciplinary community where diverse groups can exchange ideas and collectively problem-solve. Featuring speakers from across New Zealand and Australia, we are holding a two-day synthetic biology satellite as part of this years QMB.</p>
+					</div>
+
+					<div class="extra-padding"> 
+						<h2>What is synthetic biology</h2>
+						<p>Synthetic biology is designing and building living entities, like bacteria or yeast, with new functions to solve environmental or societal problems. <a class="text-link" href="#"><b>Learn more</b></a></p>
+					</div>
+
+					<div class="row extra-padding">
+
+						<div class="col-md-12 col-lg-12 col-xl-3"> 
+							<h2>Want to connect</h2>
+						</div>
+
+						<div class="col-md-12 col-lg-10 col-xl-7"> 
+							<p>We’d love to hear from you. Tell us about your research or send us your questions. <a class="text-link" href="#"><b>Contact Us</b></a></p>				
+						</div>
+
+						<div class="col-md-12 col-lg-2 col-xl-2"> 
+							<a class="text-link" href="#"><img id="connect-img" src="images/mycelium.jpg" alt="Picture of mycelium"></a>		
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Popper and bootstrap -->
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
 
 </body>
-
 
 </html>
